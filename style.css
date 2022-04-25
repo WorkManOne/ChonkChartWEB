@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 500px 500px;
+}
+.myinfo {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: skyblue;
+  padding-top: 70px;
+  font-size: 80px;
+  font-style: italic;
+  font-family: "Arial"
+}
+.nigga {
+  grid-area: 2 / 1 / 3 / 3;
+  background-color: black;
+}
+.start {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: yellow;
+  padding-top: 70px;
+  font-size: 60px;
+  font-style: italic;
+  font-family: "Arial"
+}
+.chonk-info {
+  grid-area: 1 / 3 / 3 / 4;
+  background-color: #ffbeb8;
+  font-family: "Arial";
+  font-size: 13px;
+  padding: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+.chonk-photo {
+  grid-area: 1 / 4 / 3 / 6;
+}
+.white-text {
+  color: white;
+  text-align: center;
+}
+footer {
+  font-family: "Impact";
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  background-color: green;
+}
